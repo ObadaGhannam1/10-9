@@ -1,0 +1,37 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: blueviolet;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-section {
+
+    background-color: aquamarine;
+    margin: auto;
+    width: 40inline-block;
+    display: inline-block;
+}
+
+.side-section {
+
+display:inline-block;
+background-color: bisque;
+margin: auto;
+padding-left: 0px;
+align-items: center;
+
+}
+
+@media (max-width: 500px)  {
+
+    .side-section {
+        display: none;
+    }
+
+
+    }
+    
+}
