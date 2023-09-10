@@ -1,0 +1,27 @@
+ body {
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 100px;
+ }
+
+ div{
+
+    color: blue;
+}
+
+
+@media (max-width: 500px) {
+    body{
+    background-color:red ;
+    }
+    div {
+        display: block;
+        color:azure
+    }
+ .smartphone h1 {
+    display: block;
+ }
+        
+    }
